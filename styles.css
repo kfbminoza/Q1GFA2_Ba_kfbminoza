@@ -1,0 +1,39 @@
+*{ padding: 0px; margin: 0px;}
+body { background-color: azure;}
+.banner{
+    border: 1px solid black;
+    margin: 1px;
+    padding: 150px;
+    text-align: center;
+    background-image: url(ekis.png);
+}
+
+.left
+{
+    border: none;
+    float: left;
+    display: inline-block;
+    display: block;
+}
+
+.right{
+    border: none;
+    float: right;
+    display: inline-block;
+    display: block;
+}
+.center{
+    border: none;
+    position: absolute;
+    left: 50vh;
+    right: 50vh;
+}
+.box{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5 px;
+}
+.imagesame
+{
+    display: table;
+}
