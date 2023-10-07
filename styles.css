@@ -1,11 +1,13 @@
 *{ padding: 0px; margin: 0px;}
 body { background-color: azure;}
 .banner{
-    border: 1px solid black;
+    border: none;
     margin: 1px;
     padding: 150px;
     text-align: center;
-    background-image: url(ekis.png);
+    background: url(space.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .left
@@ -14,6 +16,9 @@ body { background-color: azure;}
     float: left;
     display: inline-block;
     display: block;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
 }
 
 .right{
@@ -21,19 +26,27 @@ body { background-color: azure;}
     float: right;
     display: inline-block;
     display: block;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
 }
 .center{
     border: none;
-    position: absolute;
-    left: 50vh;
-    right: 50vh;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-left: 50vh;
+    margin-right: 50vh ;
 }
 .box{
-    border: 1px solid black;
+    border: none;
     margin: 5px;
-    padding: 5 px;
+    padding: 10 px;
 }
 .imagesame
 {
     display: table;
+    display: inline-block;
+    position: relative;
+
 }
